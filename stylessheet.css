@@ -1,0 +1,264 @@
+/* css for pc */
+
+body {
+  text-align: center;
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  color:#383838;
+  font-size: 16px;
+  margin: 0;
+}
+
+.content {
+  padding:50px 30px;
+}
+
+/* main-wrapper1 */
+.main-wrapper1 {
+  background-image: url(./imgbox/haha160306000I9A2079_TP_V.jpg);
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+
+.main-wrapper1-content  {
+  position: relative;
+  height:100vh;
+  padding:0;
+  display:none;
+}
+
+.main-wrapper1-content-logo {
+  position: absolute;
+  top:30%;
+  right:20%;
+  left:20%;
+}
+
+.main-wrapper1-content-title{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  width:80%;
+}
+
+.main-wrapper1-content p {
+  position: absolute;
+  left:20%; 
+  right:20%;
+  bottom:10%;
+}
+
+
+/* main-wrapper2 */
+.main-wrapper2-content {
+  display: flex;
+  padding:0;
+}
+
+.main-wrapper2-content-item1 {
+  background-image: url(./imgbox/KAZUHIRO005_TP_V.jpg);
+  background-size: cover;
+  vertical-align: top;
+}
+
+.main-wrapper2-content-item2 {
+  background-image: url(./imgbox/ELLsyuumeigiku150928507742_TP_V.jpg);
+  background-size: cover;
+}
+
+.main-wrapper2-content-item3 {
+  background-image: url(./imgbox/ELFA_kosumosutokotori_TP_V4.jpg);
+  background-size: cover;
+}
+
+.main-wrapper2-content-item {
+  height:600px;
+  width: calc(100% / 3);
+}
+
+.main-wrapper2-content-item-text {
+  color: white;
+  text-align: left;
+  padding:30px;
+}
+
+/* main-wrapper3 */
+.main-wrapper3-content {
+  display: flex;
+  padding:0
+}
+
+.main-wrapper3-content-item {
+  padding:50px 0;
+  width:50%;
+}
+
+.main-wrapper3-content-item1 {
+  background-color: whitesmoke;
+}
+
+.main-wrapper3-content-item2 h1 {
+  padding:0 50px;
+}
+
+.main-wrapper3-content-item1-box {
+  display: inline-block;
+  background-color: white;
+  border-radius: 30px;
+  width:30%;
+  margin:0 10px;
+}
+
+.main-wrapper3-content-item1-box img {
+  width:70%;
+  padding-top: 30px;
+}
+
+.main-wrapper3-content-item1-detail {
+  padding-top:30px;
+}
+
+.main-wrapper3-content-item2-box img {
+  width:200px;
+  padding-top: 40px;
+}
+/* main-wrapper4 */
+.main-wrapper4 {
+  background-image: url(./imgbox/flower201261777_TP_V.jpg);
+}
+
+.main-wrapper4-content {
+  width:500px;
+  display: inline-block;
+}
+
+
+/* main-wrapper5 */
+.main-wrapper5 {
+  background-image: url(./imgbox/flower201261776_TP_V.jpg);
+}
+
+.main-wrapper5-content {
+  text-align: left;
+  padding-right: 30%;
+  padding-left: 15%;
+}
+
+/* main-wrapper6 */
+.main-wrapper6-content-item-box {
+  display: flex;
+}
+
+.main-wrapper6-content-item {
+  width: calc(100% / 3);
+}
+
+.main-wrapper6-content-item1-icon {
+  font-size: 30px;
+}
+
+.main-wrapper6-content-item p1 {
+  font-size: 30px;
+  display: inline-block;
+}
+
+.main-wrapper6-content-item p2 {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+/* main-wrapper7 */
+.main-wrapper7 {
+  background-image: url(./imgbox/miuf.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-wrapper7-content h1{
+  text-align: right;
+  font-size: 20px;
+}
+
+/* footer */
+footer {
+  background-color: slategrey;
+}
+
+footer p {
+  margin:0;
+  padding-top: 30px;
+}
+
+footer a {
+  padding:0 10px;
+}
+
+.footer-content {
+  padding:70px 0;
+}
+
+/* css for mobile */
+@media screen and (max-width: 769px) {
+
+/* main-wrapper2 */
+.main-wrapper2-content {
+  display: block;
+}
+
+.main-wrapper2-content-item {
+  width:100%;
+}
+
+/* main-wrapper3 */
+.main-wrapper3-content {
+  display: block;
+}
+
+.main-wrapper3-content-item {
+  width:100%;
+}
+
+
+/* main-wrapper4 */
+.main-wrapper4-content {
+  display: block;
+  width:auto;
+  padding:30px;
+}
+
+/* main-wrapper5 */
+.main-wrapper5 {
+  background-position: center;
+}
+
+.main-wrapper5-content {
+  padding:50px 30px;
+  width:auto;
+}
+
+/* main-wrapper6 */
+.main-wrapper6-content-item-box {
+  display: block;
+}
+
+.main-wrapper6-content-item {
+  width:100%;
+}
+
+/* main-wrapper7 */
+.main-wrapper7-content h1 {
+  text-align: center;
+}
+
+/* footer */
+.footer-content {
+  padding:30px 0;
+}
+
+.footer-link a {
+  display: block;
+  padding-top:10px;
+}
+}
