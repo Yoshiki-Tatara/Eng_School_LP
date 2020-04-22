@@ -1,0 +1,999 @@
+/* body */
+body {
+  text-align: center;
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  color:#383838;
+  font-size: 16px;
+  margin: 0;
+}
+
+.container {
+  padding: 30px;
+}
+
+/* header */
+header {
+  background-color: white;
+  height:70px;
+  position: fixed;         
+  top: 0px;                 
+  left: 0px;                
+  width: 100%; 
+  z-index: 100;
+}
+
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%) ;
+  font-weight: bold;
+}
+
+
+.header-logo span{
+  font-size: 50px;
+  color:greenyellow;
+}
+
+.header-box {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%) ;
+  -webkit-transform: translateY(-50%) ;
+}
+
+.header-contact {
+  display: inline-block;
+  text-align: right;
+}
+
+
+.header-info  {
+  display: inline-block;
+  padding: 10px;
+  color:white;
+  background-color: #de264c;
+  border-radius: 10px;
+  box-shadow: 0 6px #bb1f3f;
+  display: absolute;
+  vertical-align: top;
+  margin:0 10px;
+}
+
+
+.header-info:active {
+  box-shadow: none;
+  position: relative;
+  top:7px;
+
+}
+
+.close-modal {
+  float:right;
+  padding-right: 30px;
+  display: block;
+  
+}
+
+.header-info-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+
+#header-info-form {
+  width: 100%;
+}
+
+#header-info-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+#header-info-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+/* main-wrapper1 */
+.main-wrapper1 {
+  background-image: url(./imgbox/brooke-cagle-TxSVqNgnjq4-unsplash\ \(2\).jpg);
+  background-size: cover;
+  background-position: center;
+  clear: both;
+  margin-top:70px;
+}
+
+.main-wrapper1-container {
+  padding:100px 30px;
+}
+
+
+.main-wrapper1-container-box-logo span{
+  font-size: 100px;
+  color: greenyellow;
+}
+
+.main-wrapper1-container-box-logo {
+  font-weight: bold;
+}
+
+.main-wrapper1-container-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding:30px;
+}
+
+/* main-wrapper2 */
+.main-wrapper2 {
+  background-color: #ebb94d;
+}
+
+.main-wrapper2-container-content-box {
+  background-color: white;
+  display: inline-block;
+  height:300px;
+  vertical-align: top;
+  width:200px;
+  padding:20px;
+}
+
+.main-wrapper2-container-content-box i {
+  font-size: 30px;
+}
+
+.main-wrapper2-container-content-box h1 {
+  font-size: 20px;
+}
+
+.main-wrapper2-container-content-box p1 {
+  font-weight: bold;
+}
+
+
+/* main-wrapper3 */
+.main-wrapper3 {
+  background-color: #fef5e0;
+}
+
+
+.main-wrapper3-container img{
+  width:20%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.main-wrapper3-container-box {
+  display: inline-block;
+  width:30%;
+  vertical-align: top;
+}
+
+.main-wrapper3-container-text {
+  display: inline-block;
+  width:50%;
+  position: relative;
+  padding: 8px 15px;
+  background: #ebb94d;
+  border-radius: 30px;
+}
+
+.main-wrapper3-container-box-text-left {
+  margin:2em 3em 2em 0;
+}
+
+.main-wrapper3-container-box-text-right {
+  margin:2em 0 2em 3em;
+}
+
+.main-wrapper3-container-text :before{
+  font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 15px;
+  bottom: 0;
+  color: #ebb94d;
+}
+.main-wrapper3-container-text :after{
+  font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 23px;
+  bottom: 0;
+  color: #ebb94d;
+}
+
+.main-wrapper3-container-box-text-left :before {
+  right:-40px;
+}
+
+.main-wrapper3-container-box-text-left :after {
+  right:-23px
+}
+.main-wrapper3-container-box-text-right :before {
+  left: -40px;
+}
+.main-wrapper3-container-box-text-right :after {
+  left:-23px;
+}
+
+
+.main-wrapper3-container-text  p {
+  margin: 0; 
+  padding: 0;
+}
+
+
+/* main-wrapper4 */
+.main-wrapper4-container {
+  padding:0;
+}
+.main-wrapper4-container-color{
+  color:rgb(255, 80, 137);
+}
+
+.main-wrapper4-container-title h1 {
+  padding-top: 50px;
+  margin:20px 0 0 0;
+}
+
+.main-wrapper4-container-title {
+  padding: 0 30px;
+}
+
+/* main-wrapper4-content1 */
+.reason-logo-text h1 {
+  background-color: #ebb94d;
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reason-logo {
+  padding:20px 0;
+}
+
+.reason-logo-text {
+  position: relative;
+  display: inline-block;
+  padding: 0 30%;
+}
+
+.reason-logo-text:before, .reason-logo-text:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 30%;
+  height: 1px;
+  background-color: black;
+}
+
+.reason-logo-text:before {
+  left:0;
+}
+.reason-logo-text:after {
+  right: 0;
+}
+
+
+
+.main-wrapper4-content1-title-text {
+  margin:2em 0;
+  position: relative;
+  padding: 0.25em 1em;
+  border: solid 5px #ffcb8a;
+  border-radius: 3px 0 3px 0;
+  width:40%;
+  display: inline-block;
+  font-weight: 20px;
+}
+
+.main-wrapper4-content1-title-text p {
+  margin: 0; 
+  padding: 0;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+.main-wrapper4-content1-box-item {
+  display: inline-block;
+  width:30%;
+  vertical-align: top;
+  padding:10px;
+}
+
+.main-wrapper4-content1-box-item img {
+  display: inline-block;
+  width:auto;
+  height:250px;
+}
+
+.main-wrapper4-content1-box-item-text {
+  height:300px;
+  border:solid 1px black;
+}
+
+.main-wrapper4-content1-box-item-text-title {
+  border-bottom: 1px dashed black ;
+}
+
+.main-wrapper4-content1-box-item-text h1 {
+  background-color: pink;
+  font-size: larger;
+  padding:20px;
+  margin:5px ;
+}
+
+
+
+.main-wrapper4-content1-box-item-text p {
+  padding:20px;
+  text-align: left;
+}
+
+/* main-wrapper4-content2 */
+.main-wrapper4-content2-box {
+  padding:40px 0;
+}
+
+.main-wrapper4-content2-box-text {
+  display: inline-block;
+  width:30%;
+  padding:0 20px;
+  vertical-align: top;
+}
+
+.main-wrapper4-content2-box-text-title {
+  font-size: small;
+}
+
+.main-wrapper4-content2-box-text h1 {
+  margin-top: 0;
+}
+
+
+.main-wrapper4-content2-box img {
+  display: inline-block;
+  width:40%;
+  margin:0 20px;
+  border:solid 5px pink;
+}
+
+.main-wrapper4-content2-class-info {
+  padding:50px 30px;
+  background-color: #ebb94d;
+}
+
+.main-wrapper4-content2-class-info p{
+  display: inline-block;
+  width:40%;
+}
+
+.lesson-img img {
+  display: inline-block;
+  width:20%;
+  margin:10px 10px;
+}
+
+.main-wrapper4-content2-info {
+  background-image: url(./imgbox/fujiko202021969_TP_V.jpg);
+  padding:150px 30px;
+}
+
+.main-wrapper4-content2-info-text {
+  background-color: white;
+  width:40%;
+  display: inline-block;
+  padding:30px;
+  
+}
+
+
+/* main-wrapper4-content3 */
+
+.drama-img {
+  width:40%;
+  border:solid 30px pink;
+  border-radius:20px;
+  margin:20px 0;
+}
+
+.main-wrapper4-content3-container1 {
+  display: flex;
+}
+
+.main-wrapper4-content3-container1-box {
+  padding:50px;
+}
+
+.main-wrapper4-content3-container1-box1 {
+  background-image: url(./imgbox/brooke-cagle-JBwcenOuRCg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  width:50%;
+}
+
+.main-wrapper4-content3-container1-box2 {
+  background-color: pink;
+  width:50%;
+}
+
+.main-wrapper4-content3-container1-box2-text {
+  background-color: white;
+}
+
+.main-wrapper4-content3-container1-box2-text-title {
+  padding: 30px 0;
+  margin:0;
+}
+
+.main-wrapper4-content3-container1-box2-text-item {
+  display: inline-block;
+  width:30%;
+  vertical-align: top;
+}
+
+.main-wrapper4-content3-container1-box2-text-item-icon{
+  font-size: 50px;
+  margin:0;
+
+}
+
+
+.slide-item img {
+  width:100%;
+  height:100%;
+}
+
+
+.main-wrapper4-content3-container2 {
+  background-color: antiquewhite;
+  padding:50px 30px;
+}
+
+.main-wrapper4-content3-container2 h1 {
+  margin:0;
+}
+
+.main-wrapper4-content3-container2 {
+  display: none;
+  position: relative;
+}
+.main-wrapper4-content3-container2.initialized {
+  display:block;
+}
+.slide-item {
+  margin: 0 24px;
+  overflow: hidden;
+}
+.slick-list {
+  margin-right: -12px; 
+}
+
+.slick-slide {
+  margin: 0; 
+}
+
+.slick-slide {
+  padding:0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1em;
+  outline: 0;
+  background-color: #bd77f2;
+}
+
+
+.main-wrapper4-content3-container3 {
+  background-image: url(./imgbox/brooke-cagle-tLG2hcpITZE-unsplash.jpg);
+  background-position: center;
+  padding: 30px 30px;
+}
+
+.main-wrapper4-content3-container3-title-text {
+  color:white;
+}
+
+.main-wrapper4-content3-container3-box {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin:10px;
+  width:20%;
+}
+
+
+
+
+/* main-wrapper5 */
+.main-wrapper5 {
+  background-color: #ebb94d;
+  padding: 50px 30px;
+}
+
+.main-wrapper5-container {
+  display: inline-block;
+  background-color: white;
+  width:50%;
+}
+
+/* main-wrapper6 */
+.main-wrapper6 {
+  background-color: #016ea9;
+  color:white;
+}
+
+
+/* main-wrapper7 */
+
+.main-wrapper7-container-box {
+  display: inline-block;
+  border:solid 1px black;
+  margin-bottom: 50px;
+  width:80%;
+  border-radius: 5px;
+  padding:20px;
+}
+
+.main-wrapper7-container-box img {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  display: inline-block;
+  border: solid 5px pink;
+  
+}
+
+.main-wrapper7-container-box-img-left {
+  margin: 0 0 0 50px;
+  float: left;
+}
+
+.main-wrapper7-container-box-img-right {
+  margin: 0 50px 0 0;
+  float:right;
+}
+
+.main-wrapper7-container-box-text {
+  display: inline-block;
+  width:60%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.main-wrapper7-container-box-text h1 {
+  font-size: 25px;
+}
+
+
+.main-wrapper7-container-box-text-name {
+  border-bottom:solid 1px black;
+}
+
+.main-wrapper7-container-box-text-name-place {
+  background-color: pink;
+  border-radius:10px;
+}
+
+.main-wrapper7-container-box-text-name p {
+  display: inline-block;
+}
+
+.main-wrapper7-container-footer-box-bgcolor {
+  background-color: pink;
+  display: inline-block;
+  width:300px;
+  margin: 10px;
+  padding:10px;
+  height:100px;
+
+}
+
+.main-wrapper7-container-footer-box {
+  position: relative;
+  padding:0.25em 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+.main-wrapper7-container-footer-box:before,.main-wrapper7-container-footer-box:after{ 
+  content:'';
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+}
+.main-wrapper7-container-footer-box:before{
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  top:0;
+  left: 0;
+}
+.main-wrapper7-container-footer-box:after{
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  bottom:0;
+  right: 0;
+}
+.main-wrapper7-container-footer-box p {
+  margin: 0; 
+  padding:20px 20px;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+/* main-wrapper8 */
+.main-wrapper8 {
+  background-color: #ebb94d;
+}
+
+.main-wrapper8-container-box {
+  background-color: white;
+  display: inline-block;
+  width:400px;
+  height:500px;
+  margin:20px;
+  vertical-align: top;
+  position: relative;
+}
+
+.main-wrapper8-container-box-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:80%;
+  transform: translateY(-50%) translateX(-50%) ;
+  -webkit-transform: translateY(-50%) translateX(-50%)  ;
+  display: inline-block;
+}
+
+.main-wrapper8-container-box img {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+.main-wrapper8-container-box-item-title {
+  position: relative;
+  padding: 0.5em 0.7em;
+  background: #da6b64;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom: 30px ;
+  border-radius: 5px;
+  color:white;
+}
+
+.main-wrapper8-container-box-item-title:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 45%;
+  border: 15px solid transparent;
+  border-top: 15px solid #da6b64;
+  width: 0;
+  height: 0;
+}
+
+.main-wrapper8-container-box-item h1{
+  font-size: large;
+  border-bottom:solid 2px pink;
+}
+
+.main-wrapper8-container-box-item-title p {
+  margin: 0; 
+  padding: 0;
+  
+}
+
+.main-wrapper8-container-box-item-text {
+  text-align: left;
+}
+
+/* main-wrapper9 */
+.main-wrapper9 {
+  background-image: url(./imgbox/brooke-cagle-YpefHkUc8BQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  color:white;
+
+}
+/* footer */
+footer {
+  background-color: darkgray;
+  padding:50px 30px;
+}
+
+.footer-icon {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 896px) {
+
+  /* header */
+  .header-logo {
+    left: 50%;
+    width:100%;
+  }
+  
+  
+  .header-box {
+    display: none;
+  }
+
+  /* main-wrapper2 */
+  .main-wrapper2-container-content-box {
+    width:90%;
+    height:auto;
+    margin:10px 0;
+  }
+
+
+  
+
+
+
+  /* main-wrapper3 */
+  .main-wrapper3-container {
+    padding:50px 10px;
+  }
+
+
+  
+  .main-wrapper3-container-box-text-left {
+    margin:10px 3em 10px 0;
+  }
+  
+  .main-wrapper3-container-box-text-right {
+    margin:10px 0 10px 3em;
+  }
+
+  .main-wrapper3-container-text {
+    width:auto;
+  }
+
+  /* main-wrapper4 */
+  /* main-wrapper4-content1 */
+  .main-wrapper4-content1-box-item {
+    width:90%;
+  }
+
+
+  /* main-wrapper4-content2 */
+  .main-wrapper4-content2-box img {
+
+    width:80%;
+
+  }
+
+  .main-wrapper4-content2-box {
+    padding:20px 0;
+  }
+  
+  .main-wrapper4-content2-box-text {
+    width:80%;
+  }
+
+  .main-wrapper4-content2-info-text {
+    width:auto;
+  }
+
+  .main-wrapper4-content2-info {
+    padding:50px 30px;
+  }
+
+  /* .main-wrapper4-content3 */
+  
+
+  .main-wrapper4-content3-container1 {
+    display: block;
+  }
+
+  .main-wrapper4-content3-container1-box1 {
+    width:auto;
+  }
+  .main-wrapper4-content3-container1-box2 {
+    width:auto;
+  }
+
+  /* main-wrapper5 */
+  .main-wrapper5-container {
+    width:80%;
+  }
+
+  
+
+  /* main-wrapper7 */
+  .main-wrapper7-container-box-text {
+    width:auto;
+  }
+
+  .main-wrapper7-container-box-img-left {
+    text-align: center;
+    float: none;
+    margin: 0;
+  }
+  
+  .main-wrapper7-container-box-img-right {
+    float:none;
+    text-align: center;
+    margin:0;
+  }
+
+
+  /* main-wrapper8 */
+  .main-wrapper8-container-box {
+    width:90%;
+  }
+
+}
+
+ @media screen and (max-width: 480px) {
+   /* header */
+  header {
+    position: absolute;  
+
+  }
+
+   /* main-wrapper1 */
+  .main-wrapper1-container {
+    padding:10px;
+  }
+
+  
+  .main-wrapper1-container-box {
+    padding:5px;
+  }
+  .main-wrapper2-container-content-box {
+    width:auto;
+  }
+
+  
+
+   /* main-wrapper3 */
+  .main-wrapper3-container img{
+    width:60%;
+  }
+  
+  .main-wrapper3-container-box {
+    display: inline-block;
+    width:70%;
+  }
+
+  .main-wrapper3-container-box-text-left {
+    margin:10px 0;
+  }
+  
+  .main-wrapper3-container-box-text-right {
+    margin:5px 0;
+  }
+  
+  .main-wrapper4-content1-box-item {
+    width:100%;
+    padding:0;
+  }
+
+   /* main-wrapper4 */
+  .main-wrapper4-content1-box-item-text {
+    height:auto;
+    border:solid 1px black;
+  }
+
+  .main-wrapper4-content1-box-item img {
+    width:100%;
+  }
+
+  .main-wrapper4-content3-container1-box2 {
+    padding:30px;
+  }
+
+  .main-wrapper4-content1-title-text {
+    width:80%;
+  }
+
+  .main-wrapper4-content2-class-info p{
+    width:auto;
+  }
+
+  .main-wrapper4-content2-box-text {
+    width:auto;
+    padding:0px;
+  }
+  
+  
+  .main-wrapper4-content2-box img {
+    width:80%;
+  }
+
+  .lesson-img img {
+    width:90%;
+    margin:10px 0;
+  }
+  
+
+  .main-wrapper4-content3-container3-box {
+    width:80%;
+
+  }
+
+  .main-wrapper4-content3-container3-box {
+    width:100%;
+    margin:10px 0;
+  }
+
+   /* main-wrapper5 */
+  .main-wrapper5 {
+    padding: 30px;
+  }
+
+   /* main-wrapper7 */
+  .main-wrapper7-container-footer-box-bgcolor {
+    height:auto;
+    width:auto;
+  }
+
+   /* main-wrapper8 */
+  .main-wrapper8-container-box {
+    margin:20px 0;
+    width:100%;
+    height:550px
+  }
+
+
+  
+
+
+
+
+ }
